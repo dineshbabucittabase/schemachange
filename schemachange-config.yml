@@ -1,0 +1,5 @@
+config-version: 1
+
+# Define values for the variables to replaced in change scripts
+vars:
+  env_prefix: {{ env_var('SNOWFLAKE_ENVIRONMENT') }}
