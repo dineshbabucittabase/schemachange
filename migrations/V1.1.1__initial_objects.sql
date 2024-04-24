@@ -1,3 +1,4 @@
+create database if not exists {{env_prefix}};
 CREATE SCHEMA DEMO;
 CREATE TABLE HELLO_WORLD
 (
