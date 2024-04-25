@@ -45,7 +45,7 @@ jobs:
 
   deploy-snowflake-changes-job-qa:
     runs-on: ubuntu-latest
-    environment: dev
+    environment: qa
         
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
